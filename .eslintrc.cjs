@@ -6,7 +6,8 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:jest/recommended",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs", "node_modules"],
   parser: "@typescript-eslint/parser",
@@ -16,6 +17,6 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
   },
 };
