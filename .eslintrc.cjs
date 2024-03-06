@@ -9,7 +9,7 @@ module.exports = {
     "plugin:storybook/recommended",
     "plugin:jest/recommended",
   ],
-  ignorePatterns: ["dist", ".eslintrc.cjs", "node_modules"],
+  ignorePatterns: ["dist", ".eslintrc.cjs", "node_modules", "cypress"],
   parser: "@typescript-eslint/parser",
   plugins: ["react-refresh"],
   rules: {
